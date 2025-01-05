@@ -98,7 +98,7 @@ export default function Home() {
           </div>
           
           <div className="space-y-2">
-            <label className="text-sm font-medium text-blue-500">Give me a prompt I'll draft an email for you </label>
+            <label className="text-sm font-medium text-blue-500">Give me a prompt I will draft an email for you</label>
             <textarea
               placeholder="Describe what you want in the email..."
               className="w-full p-3 border border-gray-200 text-black rounded-lg h-32 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none transition-all"
