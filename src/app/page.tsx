@@ -37,6 +37,7 @@ export default function Home() {
         toast.success('Email generated!')
       }
     } catch (error) {
+      console.error('Error generating email:', error)
       toast.error('Failed to generate email')
     } finally {
       setLoading(false)
